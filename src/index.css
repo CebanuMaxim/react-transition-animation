@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  min-width: 1000px;
+  margin: 0 auto;
+  padding: 3rem;
+}
+
+.blocks {
+  display: flex;
+}
+
+.blocks div {
+  margin-right: 3rem;
+}
+
+.square {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+}
+
+.square.blue {
+  background: cornflowerblue;
+}
+
+.blocks.orange {
+  background: coral;
+}
